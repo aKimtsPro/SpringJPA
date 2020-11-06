@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class GradeService {
+public class GradeService implements GetterService<GradeDTO, String> {
 
 //    @Autowired
     private GradeRepository repository;
