@@ -13,8 +13,8 @@ public class SpringJpaApplication {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SpringJpaApplication.class, args);
 
-		GradeService service = ctx.getBean(GradeService.class);
-		service.getAll().forEach(System.out::println);
+//		GradeService service = ctx.getBean(GradeService.class);
+//		service.getAll().forEach(System.out::println);
 
 	}
 
